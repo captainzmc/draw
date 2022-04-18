@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T13:10:04.784Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="M1giLFBjF-pXC0H2ojwf" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T13:11:25.518Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="S2L9xlu8gioLFDC8PKxm" version="17.4.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1186" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -605,7 +605,7 @@
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-45">
           <mxGeometry x="21.5" y="58" width="10" height="241" as="geometry" />
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-47" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;Filesystem&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;»&lt;br&gt;&lt;/span&gt;OdfsFilesystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-47" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;Filesystem&lt;/span&gt;&lt;span style=&quot;font-size: 10px&quot;&gt;»&lt;br&gt;&lt;/span&gt;OzoneFilesystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="115.55" y="1580" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-48" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-47">
@@ -652,7 +652,7 @@
             <mxPoint x="37.34" y="-0.17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-57" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«InputStream»&lt;br&gt;&lt;/span&gt;HDDSData&lt;br&gt;InputStream" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-57" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«InputStream»&lt;br&gt;&lt;/span&gt;OzoneData&lt;br&gt;InputStream" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="333.54999999999995" y="1580" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-58" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-57">
@@ -714,7 +714,7 @@
             <mxPoint x="22.889999999999997" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-72" value="&lt;span style=&quot;font-size: x-small&quot;&gt;7.HDDSInputStream&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=10;exitX=-0.005;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N0kDwJ6F6D4x5vT1k-Bb-87" target="N0kDwJ6F6D4x5vT1k-Bb-48">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-72" value="&lt;span style=&quot;font-size: x-small&quot;&gt;7.&lt;/span&gt;&lt;span style=&quot;font-size: 12px ; background-color: rgb(248 , 249 , 250)&quot;&gt;Ozone&lt;/span&gt;&lt;span style=&quot;font-size: x-small&quot;&gt;InputStream&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=10;exitX=-0.005;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.1;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N0kDwJ6F6D4x5vT1k-Bb-87" target="N0kDwJ6F6D4x5vT1k-Bb-48">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="252.55" y="1690" as="sourcePoint" />
             <mxPoint x="170.55" y="1686" as="targetPoint" />
@@ -791,7 +791,7 @@
             <mxPoint x="14.86" y="-8.84" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-86" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«DFSClient»&lt;br&gt;&lt;/span&gt;OdfsClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-86" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«DFSClient»&lt;br&gt;&lt;/span&gt;OzoneClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="222.55" y="1580" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-87" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-86">
