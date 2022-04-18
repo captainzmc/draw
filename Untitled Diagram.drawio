@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-18T11:45:07.317Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="1JRHa8FWaqo4bG6hPNwC" version="17.4.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-18T12:00:43.152Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.88 Safari/537.36" etag="5X7XpGKeUMqy6CTeqiee" version="17.4.5" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1186" dy="643" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -413,17 +413,17 @@
         <mxCell id="V2jBRoaLE6hbE3GdVKUT-98" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="V2jBRoaLE6hbE3GdVKUT-97" vertex="1">
           <mxGeometry x="45" y="63" width="10" height="39" as="geometry" />
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-1" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«DFSClient»&lt;br&gt;&lt;/span&gt;OdfsClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-1" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«DFSClient»&lt;br&gt;&lt;/span&gt;OzoneClient" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="312" y="1067" width="100" height="360" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-2" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-1">
           <mxGeometry x="45" y="63" width="10" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-3" value="Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
-          <mxGeometry x="116" y="1067" width="57" height="360" as="geometry" />
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-3" value="Access point&lt;br&gt;Client" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+          <mxGeometry x="81.5" y="1065" width="80" height="369" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-4" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-3">
-          <mxGeometry x="23.5" y="60" width="10" height="251" as="geometry" />
+          <mxGeometry x="35" y="62" width="10" height="251" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-5" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«Filesystem»&lt;br&gt;&lt;/span&gt;OdfsFilesystem" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="179" y="1067" width="100" height="360" as="geometry" />
@@ -467,6 +467,9 @@
           <mxGeometry width="160" relative="1" as="geometry">
             <mxPoint x="148.67000000000007" y="1354.6699999999998" as="sourcePoint" />
             <mxPoint x="656" y="1366" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="129" y="1355" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-15" value="14.close" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="N0kDwJ6F6D4x5vT1k-Bb-14">
@@ -485,7 +488,7 @@
             <mxPoint x="37.34" y="-0.17" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«FSDataOutputStream»&lt;br&gt;&lt;/span&gt;Hdds&lt;br&gt;OutputStream" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-18" value="&lt;span style=&quot;font-size: 10px&quot;&gt;«FSDataOutputStream»&lt;br&gt;&lt;/span&gt;Ozone&lt;br&gt;OutputStream" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;fillColor=#B4FF33;" vertex="1" parent="1">
           <mxGeometry x="424" y="1067" width="105" height="360" as="geometry" />
         </mxCell>
         <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-19" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="N0kDwJ6F6D4x5vT1k-Bb-18">
@@ -497,7 +500,7 @@
             <mxPoint x="578" y="1251" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-21" value="&lt;font color=&quot;#ff0000&quot;&gt;8.allocateBlock&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="N0kDwJ6F6D4x5vT1k-Bb-20">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-21" value="8.allocateBlock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="N0kDwJ6F6D4x5vT1k-Bb-20">
           <mxGeometry x="-0.3499" y="-2" relative="1" as="geometry">
             <mxPoint x="16.55" y="-12.17" as="offset" />
           </mxGeometry>
@@ -516,7 +519,7 @@
             <mxPoint x="664.3900000000001" y="1271" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-25" value="9.allocatedBlock" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="N0kDwJ6F6D4x5vT1k-Bb-24">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-25" value="9.InitPutBlob" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;" vertex="1" connectable="0" parent="N0kDwJ6F6D4x5vT1k-Bb-24">
           <mxGeometry x="-0.1971" y="2" relative="1" as="geometry">
             <mxPoint x="10.32" y="-8.32" as="offset" />
           </mxGeometry>
@@ -578,7 +581,7 @@
             <mxPoint x="18" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-38" value="&lt;font size=&quot;1&quot;&gt;5. HDDSOutputStream&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=10;exitX=-0.005;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.981;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N0kDwJ6F6D4x5vT1k-Bb-2" target="N0kDwJ6F6D4x5vT1k-Bb-6">
+        <mxCell id="N0kDwJ6F6D4x5vT1k-Bb-38" value="&lt;font size=&quot;1&quot;&gt;5. OzoneOutputStream&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;fontSize=10;exitX=-0.005;exitY=0.976;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.981;entryY=0.538;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="N0kDwJ6F6D4x5vT1k-Bb-2" target="N0kDwJ6F6D4x5vT1k-Bb-6">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="316" y="1177" as="sourcePoint" />
             <mxPoint x="234" y="1173" as="targetPoint" />
